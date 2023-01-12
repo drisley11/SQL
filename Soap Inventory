@@ -1,0 +1,15 @@
+CREATE TABLE goddess_glow_soap_company (id INTEGER PRIMARY KEY, name TEXT, qty INTEGER, location TEXT, carry_again TEXT);  
+
+INSERT INTO goddess_glow_soap_company VALUES (1, "Triple Butter", 66, "shop", "yes");
+INSERT INTO goddess_glow_soap_company VALUES (4, "Apple Sage", 27, "office", "yes");
+INSERT INTO goddess_glow_soap_company VALUES (5, "Violet Tiger", 7, "shop", "yes");
+INSERT INTO goddess_glow_soap_company VALUES (6, "Neroli and Shea", 77, "shop", "yes");
+INSERT INTO goddess_glow_soap_company VALUES (7, "Fall Harvest", 3, "shop", "no");
+INSERT INTO goddess_glow_soap_company VALUES (8,  "Rose all Day", 17, "shop", "no");
+INSERT INTO goddess_glow_soap_company VALUES (9, "Smell the Rainbow", 18,  "office", "no");
+INSERT INTO goddess_glow_soap_company VALUES (11, "Huckleberry Harvest", 55, "crate", "no"); 
+INSERT INTO goddess_glow_soap_company VALUES (12, "Campfire Soap", 3, "crate", "no");
+INSERT INTO goddess_glow_soap_company VALUES (13, "Monkey Farts", 14, "shop", "yes");
+INSERT INTO goddess_glow_soap_company VALUES (14, "Walking on Sunshine", 1, "crate", "no");
+INSERT INTO goddess_glow_soap_company VALUES (15, "Dragon's Blood", 0, "crate", "no");
+SELECT * FROM goddess_glow_soap_company;
